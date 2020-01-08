@@ -12,10 +12,11 @@
 		34286BE923C618A800B64630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34286BE723C618A800B64630 /* Main.storyboard */; };
 		34286BEB23C618AA00B64630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34286BEA23C618AA00B64630 /* Assets.xcassets */; };
 		34286BEE23C618AA00B64630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34286BEC23C618AA00B64630 /* LaunchScreen.storyboard */; };
-		D32A6CDEC1D759847557ADD2 /* Pods_JetBeepDeviceSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CFB6734679F2044D961844 /* Pods_JetBeepDeviceSDKDemo.framework */; };
+		940C99EEF7A03E366DBA25E8 /* Pods_JetBeepDeviceSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97B7FE4D3C6101D826BED77B /* Pods_JetBeepDeviceSDKDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		161E17382B448C5CBC5FFBD5 /* Pods-JetBeepDeviceSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JetBeepDeviceSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-JetBeepDeviceSDKDemo/Pods-JetBeepDeviceSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 		34286BDE23C618A800B64630 /* JetBeepDeviceSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JetBeepDeviceSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34286BE123C618A800B64630 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34286BE523C618A800B64630 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,9 +24,8 @@
 		34286BEA23C618AA00B64630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34286BED23C618AA00B64630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34286BEF23C618AA00B64630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5832CBD58B1E6364A6940458 /* Pods-JetBeepDeviceSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JetBeepDeviceSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-JetBeepDeviceSDKDemo/Pods-JetBeepDeviceSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		6DB5C5522BB54E292FD300CB /* Pods-JetBeepDeviceSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JetBeepDeviceSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-JetBeepDeviceSDKDemo/Pods-JetBeepDeviceSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
-		83CFB6734679F2044D961844 /* Pods_JetBeepDeviceSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JetBeepDeviceSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		724614ACABFA042D99950898 /* Pods-JetBeepDeviceSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JetBeepDeviceSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-JetBeepDeviceSDKDemo/Pods-JetBeepDeviceSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		97B7FE4D3C6101D826BED77B /* Pods_JetBeepDeviceSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JetBeepDeviceSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D32A6CDEC1D759847557ADD2 /* Pods_JetBeepDeviceSDKDemo.framework in Frameworks */,
+				940C99EEF7A03E366DBA25E8 /* Pods_JetBeepDeviceSDKDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,7 +46,7 @@
 				34286BE023C618A800B64630 /* JetBeepDeviceSDKDemo */,
 				34286BDF23C618A800B64630 /* Products */,
 				DD36594A1C025601DC7F5E42 /* Pods */,
-				C7330DF51BDC979BB533131C /* Frameworks */,
+				48907C99BF2AB003D31700D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,10 +71,10 @@
 			path = JetBeepDeviceSDKDemo;
 			sourceTree = "<group>";
 		};
-		C7330DF51BDC979BB533131C /* Frameworks */ = {
+		48907C99BF2AB003D31700D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				83CFB6734679F2044D961844 /* Pods_JetBeepDeviceSDKDemo.framework */,
+				97B7FE4D3C6101D826BED77B /* Pods_JetBeepDeviceSDKDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -82,8 +82,8 @@
 		DD36594A1C025601DC7F5E42 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5832CBD58B1E6364A6940458 /* Pods-JetBeepDeviceSDKDemo.debug.xcconfig */,
-				6DB5C5522BB54E292FD300CB /* Pods-JetBeepDeviceSDKDemo.release.xcconfig */,
+				724614ACABFA042D99950898 /* Pods-JetBeepDeviceSDKDemo.debug.xcconfig */,
+				161E17382B448C5CBC5FFBD5 /* Pods-JetBeepDeviceSDKDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -95,11 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34286BF223C618AA00B64630 /* Build configuration list for PBXNativeTarget "JetBeepDeviceSDKDemo" */;
 			buildPhases = (
-				31657986E4277D0917C3F4D1 /* [CP] Check Pods Manifest.lock */,
+				5176491F85646CEA063B8F16 /* [CP] Check Pods Manifest.lock */,
 				34286BDA23C618A800B64630 /* Sources */,
 				34286BDB23C618A800B64630 /* Frameworks */,
 				34286BDC23C618A800B64630 /* Resources */,
-				FC60F6A674B62C0B1872DB42 /* [CP] Embed Pods Frameworks */,
+				7EAAAE8D576B7E1E60356AEC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,7 +157,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		31657986E4277D0917C3F4D1 /* [CP] Check Pods Manifest.lock */ = {
+		5176491F85646CEA063B8F16 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -179,7 +179,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FC60F6A674B62C0B1872DB42 /* [CP] Embed Pods Frameworks */ = {
+		7EAAAE8D576B7E1E60356AEC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -346,7 +346,7 @@
 		};
 		34286BF323C618AA00B64630 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5832CBD58B1E6364A6940458 /* Pods-JetBeepDeviceSDKDemo.debug.xcconfig */;
+			baseConfigurationReference = 724614ACABFA042D99950898 /* Pods-JetBeepDeviceSDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -366,7 +366,7 @@
 		};
 		34286BF423C618AA00B64630 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DB5C5522BB54E292FD300CB /* Pods-JetBeepDeviceSDKDemo.release.xcconfig */;
+			baseConfigurationReference = 161E17382B448C5CBC5FFBD5 /* Pods-JetBeepDeviceSDKDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
