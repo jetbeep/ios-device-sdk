@@ -3,12 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		34286BE223C618A800B64630 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34286BE123C618A800B64630 /* AppDelegate.swift */; };
-		34286BE423C618A800B64630 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34286BE323C618A800B64630 /* SceneDelegate.swift */; };
 		34286BE623C618A800B64630 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34286BE523C618A800B64630 /* ViewController.swift */; };
 		34286BE923C618A800B64630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34286BE723C618A800B64630 /* Main.storyboard */; };
 		34286BEB23C618AA00B64630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34286BEA23C618AA00B64630 /* Assets.xcassets */; };
@@ -19,7 +18,6 @@
 /* Begin PBXFileReference section */
 		34286BDE23C618A800B64630 /* JetBeepDeviceSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JetBeepDeviceSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34286BE123C618A800B64630 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		34286BE323C618A800B64630 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		34286BE523C618A800B64630 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		34286BE823C618A800B64630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34286BEA23C618AA00B64630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				34286BE123C618A800B64630 /* AppDelegate.swift */,
-				34286BE323C618A800B64630 /* SceneDelegate.swift */,
 				34286BE523C618A800B64630 /* ViewController.swift */,
 				34286BE723C618A800B64630 /* Main.storyboard */,
 				34286BEA23C618AA00B64630 /* Assets.xcassets */,
@@ -88,7 +85,6 @@
 				5832CBD58B1E6364A6940458 /* Pods-JetBeepDeviceSDKDemo.debug.xcconfig */,
 				6DB5C5522BB54E292FD300CB /* Pods-JetBeepDeviceSDKDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -209,7 +205,6 @@
 			files = (
 				34286BE623C618A800B64630 /* ViewController.swift in Sources */,
 				34286BE223C618A800B64630 /* AppDelegate.swift in Sources */,
-				34286BE423C618A800B64630 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +352,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2AUX883V6A;
 				INFOPLIST_FILE = JetBeepDeviceSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -376,6 +372,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2AUX883V6A;
 				INFOPLIST_FILE = JetBeepDeviceSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
