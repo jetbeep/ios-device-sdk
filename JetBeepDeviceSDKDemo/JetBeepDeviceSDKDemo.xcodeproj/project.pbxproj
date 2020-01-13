@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		05BBB705C755943B5D020508 /* Pods_JetBeepDeviceSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EF35FBD919EE7BBD9956EB /* Pods_JetBeepDeviceSDKDemo.framework */; };
 		34286BE223C618A800B64630 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34286BE123C618A800B64630 /* AppDelegate.swift */; };
-		34286BE623C618A800B64630 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34286BE523C618A800B64630 /* ViewController.swift */; };
 		34286BE923C618A800B64630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34286BE723C618A800B64630 /* Main.storyboard */; };
 		34286BEB23C618AA00B64630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34286BEA23C618AA00B64630 /* Assets.xcassets */; };
 		34286BEE23C618AA00B64630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34286BEC23C618AA00B64630 /* LaunchScreen.storyboard */; };
+		34B58FDE23C9D73A0003B642 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B58FDD23C9D73A0003B642 /* DemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2F4016650C2D2A6079D7B7DF /* Pods-JetBeepDeviceSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JetBeepDeviceSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-JetBeepDeviceSDKDemo/Pods-JetBeepDeviceSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 		34286BDE23C618A800B64630 /* JetBeepDeviceSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JetBeepDeviceSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34286BE123C618A800B64630 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		34286BE523C618A800B64630 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		34286BE823C618A800B64630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34286BEA23C618AA00B64630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34286BED23C618AA00B64630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34286BEF23C618AA00B64630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34B58FDD23C9D73A0003B642 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 		D8EF35FBD919EE7BBD9956EB /* Pods_JetBeepDeviceSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JetBeepDeviceSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F02260D4CB08D67A83A0B7F5 /* Pods-JetBeepDeviceSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JetBeepDeviceSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-JetBeepDeviceSDKDemo/Pods-JetBeepDeviceSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,11 +70,11 @@
 			isa = PBXGroup;
 			children = (
 				34286BE123C618A800B64630 /* AppDelegate.swift */,
-				34286BE523C618A800B64630 /* ViewController.swift */,
 				34286BE723C618A800B64630 /* Main.storyboard */,
 				34286BEA23C618AA00B64630 /* Assets.xcassets */,
 				34286BEC23C618AA00B64630 /* LaunchScreen.storyboard */,
 				34286BEF23C618AA00B64630 /* Info.plist */,
+				34B58FDD23C9D73A0003B642 /* DemoViewController.swift */,
 			);
 			path = JetBeepDeviceSDKDemo;
 			sourceTree = "<group>";
@@ -203,8 +203,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34286BE623C618A800B64630 /* ViewController.swift in Sources */,
 				34286BE223C618A800B64630 /* AppDelegate.swift in Sources */,
+				34B58FDE23C9D73A0003B642 /* DemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
